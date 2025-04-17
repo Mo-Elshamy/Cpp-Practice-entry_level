@@ -1,0 +1,99 @@
+{
+  "configurations": [
+    {
+        "name": "Linux", // Or your platform (e.g., "Win32", "Mac")
+        "includePath": [
+            "${workspaceFolder}/**", // Include all folders and subfolders in the workspace
+            "/usr/include/**",      // Standard system include paths (adjust as needed)
+            "/usr/local/include/**", // Common local include path
+            "/opt/ros/**/include/**", // Example for ROS (Robot Operating System)
+            // Add any other relevant include paths here
+        ],
+        "defines": [],
+        "compilerPath": "/usr/bin/g++", // Path to your C++ compiler (g++ is common on Linux)
+        "cStandard": "c17",      // Or "c11", "c99", etc.
+        "cppStandard": "c++17",    // Or "c++14", "c++20", etc.
+        "intelliSenseMode": "gcc-x64", // Or "clang-x64" if using Clang
+        "browse": {
+            "path": [
+                "${workspaceFolder}/**",
+                "/usr/include/**",
+                "/usr/local/include/**",
+                "/opt/ros/**/include/**"
+            ],
+            "limitSymbolsToIncludedHeaders": true
+        }
+    }
+  ],
+  "version": 4,
+  "ros.distro": "humble",
+  "files.associations": {
+    "cctype": "cpp",
+    "clocale": "cpp",
+    "cmath": "cpp",
+    "cstdarg": "cpp",
+    "cstddef": "cpp",
+    "cstdio": "cpp",
+    "cstdlib": "cpp",
+    "cstring": "cpp",
+    "ctime": "cpp",
+    "cwchar": "cpp",
+    "cwctype": "cpp",
+    "array": "cpp",
+    "atomic": "cpp",
+    "bit": "cpp",
+    "*.tcc": "cpp",
+    "bitset": "cpp",
+    "chrono": "cpp",
+    "compare": "cpp",
+    "complex": "cpp",
+    "concepts": "cpp",
+    "condition_variable": "cpp",
+    "cstdint": "cpp",
+    "deque": "cpp",
+    "forward_list": "cpp",
+    "map": "cpp",
+    "set": "cpp",
+    "string": "cpp",
+    "unordered_map": "cpp",
+    "unordered_set": "cpp",
+    "vector": "cpp",
+    "exception": "cpp",
+    "algorithm": "cpp",
+    "functional": "cpp",
+    "iterator": "cpp",
+    "memory": "cpp",
+    "memory_resource": "cpp",
+    "numeric": "cpp",
+    "optional": "cpp",
+    "random": "cpp",
+    "ratio": "cpp",
+    "string_view": "cpp",
+    "system_error": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp",
+    "utility": "cpp",
+    "fstream": "cpp",
+    "initializer_list": "cpp",
+    "iomanip": "cpp",
+    "iosfwd": "cpp",
+    "iostream": "cpp",
+    "istream": "cpp",
+    "limits": "cpp",
+    "mutex": "cpp",
+    "new": "cpp",
+    "numbers": "cpp",
+    "ostream": "cpp",
+    "ranges": "cpp",
+    "semaphore": "cpp",
+    "sstream": "cpp",
+    "stdexcept": "cpp",
+    "stop_token": "cpp",
+    "streambuf": "cpp",
+    "thread": "cpp",
+    "cinttypes": "cpp",
+    "typeindex": "cpp",
+    "typeinfo": "cpp",
+    "list": "cpp"
+  }
+}
