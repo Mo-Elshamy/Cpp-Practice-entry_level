@@ -149,7 +149,6 @@ int main(){
         default:
             break;
         }
-        /* code */
     } while ( choice != 5 );
 
     // Save any change into the file
